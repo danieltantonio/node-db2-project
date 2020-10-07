@@ -5,7 +5,7 @@ exports.up = function(knex) {
       tbl.uuid('VIN');
       tbl.string('make');
       tbl.string('model');
-      tbl.integer('mileage');
+      tbl.string('mileage');
       tbl.string('transmission', 15);
     })
   };
